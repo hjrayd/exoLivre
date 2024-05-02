@@ -1,4 +1,5 @@
 <?php
+
 class Auteur {
 
     private string $prenom;
@@ -38,7 +39,7 @@ class Auteur {
         return $this->livres;
     }
 
-    public function setNom($Livres) 
+    public function setLivres($Livres) 
     {
         $this->livres = $livres;
     }
@@ -61,3 +62,5 @@ class Auteur {
     }
 
 }
+
+?>

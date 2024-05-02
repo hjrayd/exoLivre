@@ -4,12 +4,12 @@ class Livre {
     private string $titre;
     private int $nbPages;
     private int $dateParution;
-    private float $prix;
+    private int $prix;
     private Auteur $auteur;
 
 
 
-    public function __construct(string $titre, int $nbPages, int $dateParution, float $prix, Auteur $auteur)
+    public function __construct(string $titre, int $nbPages, int $dateParution, int $prix, Auteur $auteur)
     {
         $this->titre = $titre;
         $this->nbPages = $nbPages;
@@ -62,7 +62,6 @@ class Livre {
     public function __toString() {
         return $this->titre . " (" . $this->dateParution.") : ". $this->nbPages ." pages / ". $this->prix ."€<br>";
     }
-
 
 
 }

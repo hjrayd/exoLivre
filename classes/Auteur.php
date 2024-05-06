@@ -21,6 +21,7 @@ class Auteur {
     public function setPrenom($prenom) 
     {
         $this->prenom = $prenom;
+        return $this;
     }
 
     public function getNom(): string 
@@ -31,6 +32,7 @@ class Auteur {
     public function setNom($Nom) 
     {
         $this->nom = $nom;
+        return $this;
     }
 
     public function getLivres()
@@ -41,6 +43,7 @@ class Auteur {
     public function setLivres($Livres) 
     {
         $this->livres = $livres;
+        return $this;
     }
 
     public function addLivre(Livre $livre) {

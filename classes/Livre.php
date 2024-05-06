@@ -26,6 +26,7 @@ class Livre {
 
     public function setTitre($titre) {
         $this->titre = $titre;
+        return $this;
     }
 
     public function getNbPages(): int {
@@ -34,6 +35,7 @@ class Livre {
 
     public function setNbPages($nbPages) {
         $this->nbPages = $nbPages;
+        return $this;
     }
 
     public function getDateParution(): int {
@@ -42,6 +44,7 @@ class Livre {
 
     public function setDateParution($dateParution) {
         $this->dateParution = $dateParution;
+        return $this;
     }
 
     public function getPrix(): int {
@@ -50,6 +53,7 @@ class Livre {
 
     public function setPrix($prix) {
         $this->prix = $prix;
+        return $this;
     }
     public function getAuteur(): Auteur {
         return $this->auteur;
@@ -57,6 +61,7 @@ class Livre {
 
     public function setAuteur($auteur) {
         $this->auteur = $auteur;
+        return $this;
     }
 
     public function __toString() {

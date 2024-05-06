@@ -23,9 +23,6 @@ $livre3 = new Livre ("Le Fléau", 823, 1978, 14, $auteur);
 $livre4 = new Livre ("Shining", 447, 1977, 16, $auteur);
 
 
-
-
-
 echo $auteur->afficherBibliographie();
 
 

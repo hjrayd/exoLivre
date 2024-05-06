@@ -1,13 +1,12 @@
 <?php
 
-class Auteur {
-
+class Auteur {  
     private string $prenom;
     private string $nom;
     private array $livres;
 
 
-    public function __construct(string $prenom, string $nom, Livre $livres) 
+    public function __construct(string $prenom, string $nom) 
     {
         $this->prenom = $prenom;
         $this->nom = $nom;

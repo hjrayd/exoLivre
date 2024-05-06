@@ -11,8 +11,8 @@ complète d’un auteur : </p>
 
 <?php
 
-require "Auteur.php";
-require "Livre.php";
+require "classes/Auteur.php";
+require "classes/Livre.php";
 
 
 $auteur = new Auteur ("Stephen", "King");
